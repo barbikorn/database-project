@@ -1,0 +1,46 @@
+.register-card {
+    margin:0 auto;
+    margin-top:1rem;
+    width:90%
+}
+.user-navbar {
+    color:white;
+    padding-right:10px;
+    font-weight:bold;
+}
+.card.gallery-card{
+    padding:1rem 1rem;
+    /* border:2.5px solid black; */
+}
+.card.gallery-card-wrapper{
+    filter: drop-shadow(0px 0px 10px black);
+}
+.card-img {
+    width:100px;
+
+}
+div.card.card-img {
+    margin-top:5px;
+    transition:0.8s;
+}
+div.card.card-img:hover{
+    z-index:1000;
+    transform:scale(1.0125);
+}
+div.carousel{
+    height:90vh;
+    overflow:hidden;
+
+}
+div.carousel-caption {
+    position:absolute;
+    top:70vh;
+    background:rgba(0,0,0,0.4);
+    height:20vh;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+    /* font-weight:bold; */
+    color:white;
+}
+.card-title{
+    font-weight:bold;
+}
